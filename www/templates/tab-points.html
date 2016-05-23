@@ -1,0 +1,19 @@
+<ion-view view-title="Points">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right"
+              ng-repeat="point in points"
+              type="item-text-wrap"
+              href="#/tab/points/{{point.id}}">
+
+        <img src="img/coin-1.png" />
+
+        <h2>{{point.title}}</h2>
+        <p>{{point.hint}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
